@@ -48,7 +48,7 @@
       "type": "focus",
       "title": "Watermarking and orthogonal steering",
       "description": "What if we can use the steering on random direction to create a watermarking system?",
-      "full_description": "A simple watermarking system can be implemented by steering the model on a random direction. This is a promising approach as it does not require any modification of the training procedure, and can be applied to any model with a steerable latent space. However, it is still unclear how robust this method is against adversarial attacks, and how it can be used in practice.",
+      "full_description": "assets/texts/steering-watermark.md",
       "image": "assets/projects/watermarking.png"
     },
     {

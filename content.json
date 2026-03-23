@@ -1,0 +1,224 @@
+{
+  "profile": {
+    "name": "Thibaud Ardoin",
+    "title": "AI Researcher (PhD Student)",
+    "institution": "Freie universitaet Berlin",
+    "bio": "I'm interested in understanding the inner representation of large deep learning models.",
+    "photo": "assets/profile_photo1.jpg",
+    "cv": "",
+    "links": {
+      "github": "https://github.com/Thibaud-Ardoin",
+      "orcid": "https://orcid.org/0009-0001-4314-6769",
+      "scholar": "https://scholar.google.com/citations?user=bgy5iasAAAAJ&hl=en&oi=ao"
+    }
+  },
+  "ongoing": [
+    {
+      "id": "ongoing-1",
+      "type": "ongoing",
+      "title": "Ongoing Project 1",
+      "abstract": "",
+      "full_description": "",
+      "status": "ongoing",
+      "tags": ["Tag1", "Tag2"],
+      "collaborators": ["Collaborator A", "Collaborator B"],
+      "institution": {
+        "name": "Institution Name",
+        "logo": "assets/logos/institution-logo.png",
+        "country_code": "XX"
+      },
+      "years": "2024-2025",
+      "image": "assets/projects/ongoing-project1.png",
+      "paper_url": "",
+      "github_url": "",
+      "video_url": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "focus-compressed-semantic",
+      "type": "focus",
+      "title": "Compressed Semantic Representations",
+      "description": "How can concepts be compressed into a single activation 'token' understood by a LLM?",
+      "full_description": "assets/texts/compressed-semantic.md",
+      "image": "assets/projects/compressed.png"
+    },
+    {
+      "id": "focus-watermarking",
+      "type": "focus",
+      "title": "Watermarking and orthogonal steering",
+      "description": "What if we can use the steering on random direction to create a watermarking system?",
+      "full_description": "A simple watermarking system can be implemented by steering the model on a random direction. This is a promising approach as it does not require any modification of the training procedure, and can be applied to any model with a steerable latent space. However, it is still unclear how robust this method is against adversarial attacks, and how it can be used in practice.",
+      "image": "assets/projects/watermarking.png"
+    },
+    {
+      "id": "focus-steering",
+      "type": "focus",
+      "title": "Steering LLMs: Best practices and open questions",
+      "description": "What is the best method to steer while staying on the manyfold according to the problem?",
+      "full_description": "Raw addition of activations, Anihilation, Sparcity, ",
+      "image": "assets/projects/steering.png"
+    },
+    {
+      "id": "confabulation",
+      "type": "publication",
+      "title": "Where Confabulation Lives: Latent Feature Discovery in LLMs",
+      "abstract": "Thibaud Ardoin, Yi Cai, Gerhard Wunder (EMNLP '25) ",
+      "full_description": "assets/texts/confabulation.md",
+      "status": "published",
+      "tags": ["LLM", "Steering", "Probing", "Internal representation", "AI Behavior"],
+      "collaborators": [
+          { "name": "Yi Cai", "url": "https://caiy0220.github.io/" }
+      ],
+      "institution": {
+        "name": "Freie universitaet Berlin",
+        "logo": "assets/logos/fu-berlin-logo.png",
+        "country_code": ""
+      },
+      "bib_key": "ardoin2025confabulation",
+      "years": "2025",
+      "image": "assets/projects/forest-carbon.png",
+      "paper_url": "https://aclanthology.org/2025.emnlp-main.1515/",
+      "github_url": "https://github.com/Thibaud-Ardoin/where-confabulation-lives",
+      "video_url": "https://www.youtube.com/watch?v=HWnUDYqCRu8"
+    },
+    {
+      "id": "evaluation-scheme",
+      "type": "publication",
+      "title": "Rethinking Explanation Evaluation Under the Retraining Scheme",
+      "abstract": "Yi Cai, Thibaud Ardoin, Mayank Gulati, Gerhard Wunder (AAAI '26)",
+      "full_description": "assets/texts/evaluation-scheme.md",
+      "status": "published",
+      "tags": ["Explainability", "Evaluation", "Computer Vision", "Interpretability"],
+      "collaborators": [
+          { "name": "Yi Cai", "url": "https://caiy0220.github.io/" }
+      ],
+      "institution": {
+        "name": "Freie universitaet Berlin",
+        "logo": "assets/logos/fu-berlin-logo.png",
+        "country_code": ""
+      },
+      "bib_key": "cai2026rethinking",
+      "years": "2026",
+      "image": "assets/projects/evaluation-scheme.png",
+      "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/download/39065/43027",
+      "github_url": "https://github.com/caiy0220/KAFT-C",
+      "video_url": "https://underline.io/lecture/142533-rethinking-explanation-evaluation-under-the-retraining-scheme"
+    },
+    {
+      "id": "GEFA",
+      "type": "publication",
+      "title": "GEFA: A General Feature Attribution Framework Using Proxy Gradient Estimation",
+      "abstract": "Yi Cai, Thibaud Ardoin, Gerhard Wunder (ICML '25)",
+      "full_description": "assets/texts/GEFA.md",
+      "status": "published",
+      "tags": ["Image recognition", "LLM", "Explainability"],
+      "collaborators": [
+          { "name": "Yi Cai", "url": "https://caiy0220.github.io/" }
+      ],
+      "institution": {
+        "name": "Freie universitaet Berlin",
+        "logo": "assets/logos/fu-berlin-logo.png",
+        "country_code": ""
+      },
+      "bib_key": "cai2025gefa",
+      "years": "2025",
+      "image": "assets/projects/GEFA1.png",
+      "paper_url": "https://openreview.net/forum?id=QyG0ilz5ju",
+      "github_url": "https://github.com/caiy0220/GEFA",
+      "video_url": ""
+    },
+    {
+      "id": "RFF",
+      "type": "publication",
+      "title": "Tracking UWB Devices Through Radio Frequency Fingerprinting Is Possible",
+      "abstract": "Thibaud Ardoin, Niklas Pauli, Benedikt Groß, Mahsa Kholghi, Khan Reaz, Gerhard Wunder (ICNC '25)",
+      "full_description": "assets/texts/UWB-RFF.md", 
+      "status": "published",
+      "tags": ["Deep Learning", "Physical layer security", "Signal processing", "Fingerprinting"],
+      "collaborators": [
+        { "name": "Niklas Pauli", "url": "" },
+        { "name": "Benedikt Groß", "url": "https://www.researchgate.net/profile/Benedikt-Gross" },
+        { "name": "Mahsa Kholghi", "url": "https://www.researchgate.net/profile/Mahsa-Kholghi" },
+        { "name": "Khan Reaz", "url": "https://khanreaz.com/" }
+      ],
+      "institution": {
+        "name": "Freie universitaet Berlin",
+        "logo": "assets/logos/fu-berlin-logo.png",
+        "country_code": ""
+      },
+      "bib_key": "ardoin2025tracking",
+      "years": "2025",
+      "image": "assets/projects/UWB-RFF.png",
+      "paper_url": "https://arxiv.org/abs/2501.04401",
+      "github_url": "https://github.com/Thibaud-Ardoin/UWB-fingerprint",
+      "video_url": ""
+    },
+    {
+      "id": "dial-a-ride",
+      "type": "project",
+      "title": "Solving Complexe routing problem with Transformers",
+      "abstract": "",
+      "full_description": "assets/texts/epfl.md",
+      "status": "finished",
+      "tags": ["Routing problem", "Deep Learning", "Dial-a-Ride", "NP-hard", "Simulation", "RL"],
+      "collaborators": [
+          { "name": "Prof. Alexandre Alahi", "url": "https://people.epfl.ch/alexandre.alahi" }
+      ],
+      "institution": {
+        "name": "École Polytechnique Fédérale de Lausanne",
+        "logo": "assets/logos/epfl-logo.png",
+        "country_code": "CH"
+      },
+      "years": "2021",
+      "image": "assets/projects/dial-a-ride-gif2.gif",
+      "paper_url": "https://github.com/Thibaud-Ardoin/Dial-a-Ride/blob/master/poster%20darp.pdf",
+      "github_url": "https://github.com/Thibaud-Ardoin/dial-a-ride"
+    },
+    {
+      "id": "offline-rl",
+      "type": "project",
+      "title": "Offline Reinforcement Learning for Autonomous Driving",
+      "abstract": "",
+      "full_description": "assets/texts/berkeley.md",
+      "status": "finished",
+      "tags": ["Offline RL", "Autonomous Driving", "Simulation", "Deep Learning"],
+      "collaborators": [
+        { "name": "Nathan Lichtlé", "url": "https://www.nathanlichtle.com/" },
+        { "name": "Eugene Vinitsky", "url": "https://www.eugenevinitsky.com/" },
+        { "name": "Prof. Alexandre Bayen", "url": "https://bayen.berkeley.edu/alex-bayen" }
+      ],
+      "institution": {
+        "name": "Berkeley University of California",
+        "logo": "assets/logos/berkeley-logo.png",
+        "country_code": "US"
+      },
+      "years": "2020",
+      "image": "assets/projects/flow-highway.gif",
+      "paper_url": "https://ml4ad.github.io/files/papers2020/Extracting%20Traffic%20Smoothing%20Controllers%20Directly%20From%20Driving%20Data%20using%20Offline%20RL.pdf",
+      "video_url": "https://slideslive.com/38941512/extracting-traffic-smoothing-controllers-directly-from-driving-data-using-offline-rl",
+      "github_url": "https://github.com/Thibaud-Ardoin/offline-rl"
+    },
+    {
+      "id": "sertis",
+      "type": "project",
+      "title": "Spoofing detector for facial recognition systems",
+      "abstract": "",
+      "full_description": "assets/texts/sertis.md",
+      "status": "finished",
+      "tags": ["Spoofing Detection", "Facial Recognition", "Computer Vision", "Deep Learning"],
+      "collaborators": [
+        { "name": "Dr. Justin Cairns", "url": "https://th.linkedin.com/in/drjcairns" }
+      ],
+      "institution": {
+        "name": "Sertis",
+        "logo": "assets/logos/sertis-logo.png",
+        "country_code": "TH"
+      },
+      "years": "2019",
+      "image": "assets/projects/pad.png",
+      "paper_url": "https://www.sertiscorp.com/",
+      "github_url": ""
+    }
+  ]
+}

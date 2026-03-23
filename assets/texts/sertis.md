@@ -1,0 +1,3 @@
+### Computer vision in the Thai startup Sertis
+
+For six months, we developed a competitive Presentation Attack Detection (PAD) model capable of running on a small tablet alongside a facial recognition system. Due to the lack of open-source models and datasets, we created our own large-scale dataset tailored to the specific use cases and production camera. The system was subsequently integrated into a facial recognition solution deployed for an airline company pioneering automated passport control.

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Researcher personal page" />
+  <title>Researcher Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Flag icons library (renders real country flags from 2-letter ISO codes) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════
+       MOBILE ONLY: top ID card (hidden on desktop)
+  ════════════════════════════════════════════════ -->
+  <div class="mobile-topcard" id="mobile-topcard" role="banner">
+    <!-- filled by main.js -->
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       PAGE WRAPPER — sidebar + main
+  ════════════════════════════════════════════════ -->
+  <div class="page-wrapper">
+
+    <!-- STICKY SIDEBAR (desktop only) -->
+    <aside class="sidebar" id="sidebar" aria-label="Researcher profile">
+      <!-- filled by main.js -->
+    </aside>
+
+    <!-- MAIN SCROLLABLE CONTENT -->
+    <main class="main-content" id="main-content">
+
+      <!-- FOCUS -->
+      <section class="content-section" id="focus-section">
+        <h2 class="section-heading">Current Research Focus</h2>
+        <div id="focus-grid">
+          <div class="loading-message">Loading…</div>
+        </div>
+      </section>
+
+      <!-- PUBLICATIONS -->
+      <section class="content-section" id="publications-section">
+        <h2 class="section-heading">Publications</h2>
+        <div id="publications-grid">
+          <div class="loading-message">Loading publications…</div>
+        </div>
+      </section>
+
+
+      <!-- PROJECTS -->
+      <section class="content-section" id="projects-section">
+        <h2 class="section-heading">Older Projects</h2>
+        <div id="projects-grid">
+          <div class="loading-message">Loading projects…</div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       MODAL OVERLAY
+  ════════════════════════════════════════════════ -->
+  <div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true" aria-label="Project detail">
+    <div class="modal" id="modal-content" tabindex="-1">
+      <!-- filled dynamically by main.js when a card is clicked -->
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

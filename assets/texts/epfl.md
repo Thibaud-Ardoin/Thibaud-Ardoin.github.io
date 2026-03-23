@@ -1,0 +1,3 @@
+### Routing problem at EPFL
+
+Complexe routing problems can incorporate an exponential amount of constraints. Solving these with appropriate heuristics or exact solutions is demanding a lot of research and implementation for each variation of the problem. I build a simulator based on a variant of the Dial-a-Ride problem to train DL models. The multimodal information of the world view needs to be properly translated to be feed into a Transformer based model

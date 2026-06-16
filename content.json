@@ -12,28 +12,6 @@
       "scholar": "https://scholar.google.com/citations?user=bgy5iasAAAAJ&hl=en&oi=ao"
     }
   },
-  "ongoing": [
-    {
-      "id": "ongoing-1",
-      "type": "ongoing",
-      "title": "Ongoing Project 1",
-      "abstract": "",
-      "full_description": "",
-      "status": "ongoing",
-      "tags": ["Tag1", "Tag2"],
-      "collaborators": ["Collaborator A", "Collaborator B"],
-      "institution": {
-        "name": "Institution Name",
-        "logo": "assets/logos/institution-logo.png",
-        "country_code": "XX"
-      },
-      "years": "2024-2025",
-      "image": "assets/projects/ongoing-project1.png",
-      "paper_url": "",
-      "github_url": "",
-      "video_url": ""
-    }
-  ],
   "projects": [
     {
       "id": "focus-compressed-semantic",
@@ -59,6 +37,32 @@
       "full_description": "Raw addition of activations, Anihilation, Sparcity, ",
       "image": "assets/projects/steering.png"
     },
+
+
+    {
+      "id": "watermarking",
+      "type": "publication",
+      "title": "LLM Self-Recognition: Steering and Retrieving Activation Signatures",
+      "abstract": "Thibaud Ardoin, Jonas Schäfer, Gerhard Wunder (ICML '26)",
+      "tags": ["LLM", "Watermarking", "Steering"],
+      "description": "What if we can use the steering on random direction to create a watermarking system?",
+      "full_description": "assets/texts/steering-watermark.md",
+      "image": "assets/projects/watermarking-pipeline-simple.png",
+      "collaborators": [
+          { "name": "Jonas Schäfer", "url": "https://www.linkedin.com/in/jonasschaefer-fub/?locale=en" }
+      ],
+      "institution": {
+        "name": "Freie universitaet Berlin",
+        "logo": "assets/logos/fu-berlin-logo.png",
+        "country_code": ""
+      },
+      "bib_key": "ardoin2026llmselfrec",
+      "years": "2026",
+      "paper_url": "https://arxiv.org/abs/2606.06315",
+      "github_url": "https://github.com/Thibaud-Ardoin/LLM-Self-Recognition",
+      "video_url": "https://recorder-v3.slideslive.com/#/share?share=112408&s=8ab7c85a-bf2a-4604-938b-bf8ad458218e"
+    },
+
     {
       "id": "confabulation",
       "type": "publication",
@@ -77,11 +81,13 @@
       },
       "bib_key": "ardoin2025confabulation",
       "years": "2025",
-      "image": "assets/projects/forest-carbon.png",
+      "image": "assets/projects/confabulation-simple.png",
       "paper_url": "https://aclanthology.org/2025.emnlp-main.1515/",
       "github_url": "https://github.com/Thibaud-Ardoin/where-confabulation-lives",
       "video_url": "https://www.youtube.com/watch?v=HWnUDYqCRu8"
     },
+
+
     {
       "id": "evaluation-scheme",
       "type": "publication",
@@ -105,6 +111,11 @@
       "github_url": "https://github.com/caiy0220/KAFT-C",
       "video_url": "https://underline.io/lecture/142533-rethinking-explanation-evaluation-under-the-retraining-scheme"
     },
+
+
+
+
+
     {
       "id": "GEFA",
       "type": "publication",

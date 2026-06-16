@@ -40,6 +40,32 @@
 
 
     {
+      "id": "compressed-semantic",
+      "type": "publication",
+      "title": "Prompt Compression via Activation Aggregation",
+      "abstract": "Thibaud Ardoin, Semira Einsele, Evis Bregu, Gerhard Wunder (Preprint / Under review)",
+      "tags": ["LLM", "Representation", "Optimization", "Interpretability"],
+      "description": "",
+      "full_description": "assets/texts/compressed-semantic.md",
+      "image": "assets/projects/compression-layers.png",
+      "collaborators": [
+          { "name": "Semira Einsele", "url": "https://www.linkedin.com/in/semiraeinsele/" },
+          { "name": "Evis Bregu", "url": "https://www.linkedin.com/in/evis-bregu-43ab26304/" }
+      ],
+      "institution": {
+        "name": "Freie universitaet Berlin",
+        "logo": "assets/logos/fu-berlin-logo.png",
+        "country_code": ""
+      },
+      "bib_key": "",
+      "years": "2026",
+      "paper_url": "./assets/papers/Compressed_token_ARDOIN_[preprint].pdf",
+      "github_url": "",
+      "video_url": ""
+    },
+
+
+    {
       "id": "watermarking",
       "type": "publication",
       "title": "LLM Self-Recognition: Steering and Retrieving Activation Signatures",

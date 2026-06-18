@@ -17,36 +17,36 @@
       "id": "focus-compressed-semantic",
       "type": "focus",
       "title": "Compressed Semantic Representations",
-      "description": "How can concepts be compressed into a single activation 'token' understood by a LLM?",
-      "full_description": "assets/texts/compressed-semantic.md",
-      "image": "assets/projects/compressed.png"
+      "description": "How can a representation of a LLM be extracted in the most accuract way?",
+      "full_description": "assets/texts/compressed-representation.md",
+      "image": "assets/projects/WMLP.png"
     },
     {
       "id": "focus-watermarking",
       "type": "focus",
       "title": "Watermarking and orthogonal steering",
       "description": "What if we can use the steering on random direction to create a watermarking system?",
-      "full_description": "assets/texts/steering-watermark.md",
+      "full_description": "assets/texts/AI-GTD.md",
       "image": "assets/projects/watermarking.png"
     },
     {
-      "id": "focus-steering",
+      "id": "focus-activation-engineering",
       "type": "focus",
       "title": "Steering LLMs: Best practices and open questions",
       "description": "What is the best method to steer while staying on the manyfold according to the problem?",
-      "full_description": "Raw addition of activations, Anihilation, Sparcity, ",
+      "full_description": "assets/texts/activation-engineering.md",
       "image": "assets/projects/steering.png"
     },
 
 
     {
-      "id": "compressed-semantic",
+      "id": "compressed-prompt",
       "type": "publication",
       "title": "Prompt Compression via Activation Aggregation",
       "abstract": "Thibaud Ardoin, Semira Einsele, Evis Bregu, Gerhard Wunder (Preprint / Under review)",
       "tags": ["LLM", "Representation", "Optimization", "Interpretability"],
       "description": "",
-      "full_description": "assets/texts/compressed-semantic.md",
+      "full_description": "assets/texts/compressed-prompt.md",
       "image": "assets/projects/compression-layers.png",
       "collaborators": [
           { "name": "Semira Einsele", "url": "https://www.linkedin.com/in/semiraeinsele/" },

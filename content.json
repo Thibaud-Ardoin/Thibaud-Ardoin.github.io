@@ -12,13 +12,14 @@
       "scholar": "https://scholar.google.com/citations?user=bgy5iasAAAAJ&hl=en&oi=ao"
     }
   },
+
   "projects": [
     {
       "id": "focus-compressed-semantic",
       "type": "focus",
       "title": "Compressed Semantic Representations",
-      "description": "How can a representation of a LLM be extracted in the most accuract way?",
-      "full_description": "assets/texts/compressed-representation.md",
+      "description": "How can information in a LLM be extracted, compressed and reused in the most accuract way?",
+      "full_description": "assets/texts/focus/compressed-representation.md",
       "image": "assets/projects/WMLP.png"
     },
     {
@@ -26,7 +27,7 @@
       "type": "focus",
       "title": "Watermarking and orthogonal steering",
       "description": "What if we can use the steering on random direction to create a watermarking system?",
-      "full_description": "assets/texts/AI-GTD.md",
+      "full_description": "assets/texts/focus/AI-GTD.md",
       "image": "assets/projects/watermarking.png"
     },
     {
@@ -34,7 +35,7 @@
       "type": "focus",
       "title": "Steering LLMs: Best practices and open questions",
       "description": "What is the best method to steer while staying on the manyfold according to the problem?",
-      "full_description": "assets/texts/activation-engineering.md",
+      "full_description": "assets/texts/focus/activation-engineering.md",
       "image": "assets/projects/steering.png"
     },
 
@@ -46,7 +47,7 @@
       "abstract": "Thibaud Ardoin, Semira Einsele, Evis Bregu, Gerhard Wunder (Preprint / Under review)",
       "tags": ["LLM", "Representation", "Optimization", "Interpretability"],
       "description": "",
-      "full_description": "assets/texts/compressed-prompt.md",
+      "full_description": "assets/texts/publications/compressed-prompt.md",
       "image": "assets/projects/compression-layers.png",
       "collaborators": [
           { "name": "Semira Einsele", "url": "https://www.linkedin.com/in/semiraeinsele/" },
@@ -72,7 +73,7 @@
       "abstract": "Thibaud Ardoin, Jonas Schäfer, Gerhard Wunder (ICML '26)",
       "tags": ["LLM", "Watermarking", "Steering"],
       "description": "What if we can use the steering on random direction to create a watermarking system?",
-      "full_description": "assets/texts/steering-watermark.md",
+      "full_description": "assets/texts/publications/steering-watermark.md",
       "image": "assets/projects/watermarking-pipeline-simple.png",
       "collaborators": [
           { "name": "Jonas Schäfer", "url": "https://www.linkedin.com/in/jonasschaefer-fub/?locale=en" }
@@ -94,7 +95,7 @@
       "type": "publication",
       "title": "Where Confabulation Lives: Latent Feature Discovery in LLMs",
       "abstract": "Thibaud Ardoin, Yi Cai, Gerhard Wunder (EMNLP '25) ",
-      "full_description": "assets/texts/confabulation.md",
+      "full_description": "assets/texts/publications/confabulation.md",
       "status": "published",
       "tags": ["LLM", "Steering", "Probing", "Internal representation", "AI Behavior"],
       "collaborators": [
@@ -119,7 +120,7 @@
       "type": "publication",
       "title": "Rethinking Explanation Evaluation Under the Retraining Scheme",
       "abstract": "Yi Cai, Thibaud Ardoin, Mayank Gulati, Gerhard Wunder (AAAI '26)",
-      "full_description": "assets/texts/evaluation-scheme.md",
+      "full_description": "assets/texts/publications/evaluation-scheme.md",
       "status": "published",
       "tags": ["Explainability", "Evaluation", "Computer Vision", "Interpretability"],
       "collaborators": [
@@ -147,7 +148,7 @@
       "type": "publication",
       "title": "GEFA: A General Feature Attribution Framework Using Proxy Gradient Estimation",
       "abstract": "Yi Cai, Thibaud Ardoin, Gerhard Wunder (ICML '25)",
-      "full_description": "assets/texts/GEFA.md",
+      "full_description": "assets/texts/publications/GEFA.md",
       "status": "published",
       "tags": ["Image recognition", "LLM", "Explainability"],
       "collaborators": [
@@ -170,7 +171,7 @@
       "type": "publication",
       "title": "Tracking UWB Devices Through Radio Frequency Fingerprinting Is Possible",
       "abstract": "Thibaud Ardoin, Niklas Pauli, Benedikt Groß, Mahsa Kholghi, Khan Reaz, Gerhard Wunder (ICNC '25)",
-      "full_description": "assets/texts/UWB-RFF.md", 
+      "full_description": "assets/texts/publications/UWB-RFF.md", 
       "status": "published",
       "tags": ["Deep Learning", "Physical layer security", "Signal processing", "Fingerprinting"],
       "collaborators": [
@@ -196,7 +197,7 @@
       "type": "project",
       "title": "Solving Complexe routing problem with Transformers",
       "abstract": "",
-      "full_description": "assets/texts/epfl.md",
+      "full_description": "assets/texts/older_projects/epfl.md",
       "status": "finished",
       "tags": ["Routing problem", "Deep Learning", "Dial-a-Ride", "NP-hard", "Simulation", "RL"],
       "collaborators": [
@@ -217,7 +218,7 @@
       "type": "project",
       "title": "Offline Reinforcement Learning for Autonomous Driving",
       "abstract": "",
-      "full_description": "assets/texts/berkeley.md",
+      "full_description": "assets/texts/older_projects/berkeley.md",
       "status": "finished",
       "tags": ["Offline RL", "Autonomous Driving", "Simulation", "Deep Learning"],
       "collaborators": [
@@ -241,7 +242,7 @@
       "type": "project",
       "title": "Spoofing detector for facial recognition systems",
       "abstract": "",
-      "full_description": "assets/texts/sertis.md",
+      "full_description": "assets/texts/older_projects/sertis.md",
       "status": "finished",
       "tags": ["Spoofing Detection", "Facial Recognition", "Computer Vision", "Deep Learning"],
       "collaborators": [

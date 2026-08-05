@@ -15,6 +15,6 @@ Test AI-GTD in LLM internal represenation enhanced at extraction of the represen
 
 ## References
 
-[1] Ardoin, et. al (2026) *Prompt Compression* Under review.
+[1] *Prompt Compression via Activation Aggregation* Ardoin, et. al (2026) Under review. https://arxiv.org/abs/2607.08399
 
-[2] Ardoin, et. al (2026). *LLM Self-Recognition: Steering and Retrieving Activation Signatures*. ICML'26: https://arxiv.org/abs/2606.06315
+[2] *LLM Self-Recognition: Steering and Retrieving Activation Signatures* Ardoin, et. al (2026) ICML'26: https://arxiv.org/abs/2606.06315

@@ -3,7 +3,12 @@
 We showed previously that a prompt can be compressed with a simple aggregation of the internal representation [1]. 
 This compression implies that the LLM can understand much denser represenations then the "natural" residual stream.
 
+
+![overall-pipeline](assets/projects/prompt_compression/prompt_compression_pipeline.png)
+
 From this proof-of-concept work, **two** main question arise:
+
+
 
 ## 🔍 1. How much information can be compressed ?
 
@@ -16,6 +21,9 @@ Compared to existing methods, this approach still holds the adventage of being m
 ```
 Improve the effectiveness of our prompt compression method.
 ```
+
+![sentence-wise-compression](assets/projects/prompt_compression/multi_token_compression.png)
+
 
 ## 🔍 2. What if a trained weighted sum is a better LLM representation ?
 
@@ -34,6 +42,8 @@ The activation engeneering pipelines could gain in accuracy if their representat
 Show usability of W-MLP as an interpretability and activation engeneering tool.
 ```
 
+
+![interpretability-compression](assets/projects/prompt_compression/compression_interpretability.png)
 
 ## References
 

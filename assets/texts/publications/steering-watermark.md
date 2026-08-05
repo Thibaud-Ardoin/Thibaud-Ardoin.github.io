@@ -7,7 +7,7 @@ It has been shown that the LLM generated text can hold orthogonal information to
 
 A simple watermarking system can be implemented by steering the model on a random direction. This is a promising approach as it does not require any modification of the training procedure, and can be applied to any model with a steerable latent space. However, it is still unclear how robust this method is against adversarial attacks, and how it can be used in practice.
 
-![steering-sheme](assets/projects/watermarking.png)
+![steering-sheme](assets/projects/internal_watermark/watermarking.png)
 
 
 ### References

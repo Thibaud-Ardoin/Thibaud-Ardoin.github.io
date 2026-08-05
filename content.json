@@ -20,7 +20,7 @@
       "title": "Compressed Semantic Representations",
       "description": "How can information in a LLM be extracted, compressed and reused in the most accuract way?",
       "full_description": "assets/texts/focus/compressed-representation.md",
-      "image": "assets/projects/WMLP.png"
+      "image": "assets/projects/prompt_compression/WMLP.png"
     },
     {
       "id": "focus-watermarking",
@@ -28,7 +28,7 @@
       "title": "Watermarking and orthogonal steering",
       "description": "What if we can use the steering on random direction to create a watermarking system?",
       "full_description": "assets/texts/focus/AI-GTD.md",
-      "image": "assets/projects/watermarking.png"
+      "image": "assets/projects/internal_watermark/watermarking.png"
     },
     {
       "id": "focus-activation-engineering",
@@ -36,7 +36,7 @@
       "title": "Steering LLMs: Best practices and open questions",
       "description": "What is the best method to steer while staying on the manyfold according to the problem?",
       "full_description": "assets/texts/focus/activation-engineering.md",
-      "image": "assets/projects/steering.png"
+      "image": "assets/projects/confabulation/steering.png"
     },
 
 
@@ -48,7 +48,7 @@
       "tags": ["LLM", "Representation", "Optimization", "Interpretability"],
       "description": "",
       "full_description": "assets/texts/publications/compressed-prompt.md",
-      "image": "assets/projects/compression-layers.png",
+      "image": "assets/projects/prompt_compression/compression-layers.png",
       "collaborators": [
           { "name": "Semira Einsele", "url": "https://www.linkedin.com/in/semiraeinsele/" },
           { "name": "Evis Bregu", "url": "https://www.linkedin.com/in/evis-bregu-43ab26304/" }
@@ -60,7 +60,7 @@
       },
       "bib_key": "",
       "years": "2026",
-      "paper_url": "./assets/papers/Compressed_token_ARDOIN_[preprint].pdf",
+      "paper_url": "https://arxiv.org/abs/2607.08399",
       "github_url": "",
       "video_url": ""
     },
@@ -74,7 +74,7 @@
       "tags": ["LLM", "Watermarking", "Steering"],
       "description": "What if we can use the steering on random direction to create a watermarking system?",
       "full_description": "assets/texts/publications/steering-watermark.md",
-      "image": "assets/projects/watermarking-pipeline-simple.png",
+      "image": "assets/projects/internal_watermark/watermarking-pipeline-simple.png",
       "collaborators": [
           { "name": "Jonas Schäfer", "url": "https://www.linkedin.com/in/jonasschaefer-fub/?locale=en" }
       ],
@@ -87,7 +87,7 @@
       "years": "2026",
       "paper_url": "https://arxiv.org/abs/2606.06315",
       "github_url": "https://github.com/Thibaud-Ardoin/LLM-Self-Recognition",
-      "video_url": "https://recorder-v3.slideslive.com/#/share?share=112408&s=8ab7c85a-bf2a-4604-938b-bf8ad458218e"
+      "video_url": "https://icml.cc/virtual/2026/poster/62123"
     },
 
     {
@@ -108,7 +108,7 @@
       },
       "bib_key": "ardoin2025confabulation",
       "years": "2025",
-      "image": "assets/projects/confabulation-simple.png",
+      "image": "assets/projects/confabulation/confabulation-simple.png",
       "paper_url": "https://aclanthology.org/2025.emnlp-main.1515/",
       "github_url": "https://github.com/Thibaud-Ardoin/where-confabulation-lives",
       "video_url": "https://www.youtube.com/watch?v=HWnUDYqCRu8"
@@ -133,7 +133,7 @@
       },
       "bib_key": "cai2026rethinking",
       "years": "2026",
-      "image": "assets/projects/evaluation-scheme.png",
+      "image": "assets/projects/evaluation_scheme/evaluation-scheme.png",
       "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/download/39065/43027",
       "github_url": "https://github.com/caiy0220/KAFT-C",
       "video_url": "https://underline.io/lecture/142533-rethinking-explanation-evaluation-under-the-retraining-scheme"
@@ -161,7 +161,7 @@
       },
       "bib_key": "cai2025gefa",
       "years": "2025",
-      "image": "assets/projects/GEFA1.png",
+      "image": "assets/projects/gefa/GEFA1.png",
       "paper_url": "https://openreview.net/forum?id=QyG0ilz5ju",
       "github_url": "https://github.com/caiy0220/GEFA",
       "video_url": ""
@@ -187,7 +187,7 @@
       },
       "bib_key": "ardoin2025tracking",
       "years": "2025",
-      "image": "assets/projects/UWB-RFF.png",
+      "image": "assets/projects/UWB/UWB-RFF.png",
       "paper_url": "https://arxiv.org/abs/2501.04401",
       "github_url": "https://github.com/Thibaud-Ardoin/UWB-fingerprint",
       "video_url": ""
@@ -209,7 +209,7 @@
         "country_code": "CH"
       },
       "years": "2021",
-      "image": "assets/projects/dial-a-ride-gif2.gif",
+      "image": "assets/projects/dial_a_ride/dial-a-ride-gif2.gif",
       "paper_url": "https://github.com/Thibaud-Ardoin/Dial-a-Ride/blob/master/poster%20darp.pdf",
       "github_url": "https://github.com/Thibaud-Ardoin/dial-a-ride"
     },
@@ -232,7 +232,7 @@
         "country_code": "US"
       },
       "years": "2020",
-      "image": "assets/projects/flow-highway.gif",
+      "image": "assets/projects/flow/flow-highway.gif",
       "paper_url": "https://ml4ad.github.io/files/papers2020/Extracting%20Traffic%20Smoothing%20Controllers%20Directly%20From%20Driving%20Data%20using%20Offline%20RL.pdf",
       "video_url": "https://slideslive.com/38941512/extracting-traffic-smoothing-controllers-directly-from-driving-data-using-offline-rl",
       "github_url": "https://github.com/Thibaud-Ardoin/offline-rl"
@@ -254,7 +254,7 @@
         "country_code": "TH"
       },
       "years": "2019",
-      "image": "assets/projects/pad.png",
+      "image": "assets/projects/sertis/pad.png",
       "paper_url": "https://www.sertiscorp.com/",
       "github_url": ""
     }

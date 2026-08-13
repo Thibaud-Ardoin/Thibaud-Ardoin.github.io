@@ -1,3 +1,9 @@
+
+## How can a prompt be compressed in an LLM’s representation space?
+
+In contrast to text-to-text prompt compression approaches, we propose a method that leverages the strong abstractions already present in an LLM’s representation space. Inspired by recent work in mechanistic interpretability, we show that the information contained in a prompt can be compressed into a single activation vector with only a limited drop in accuracy. Beyond being an efficiency tool, this approach provides insights into how information is represented and flows through LLMs, and opens new possibilities for activation engineering and explainable AI.
+
+
 ## Background
 
 Steering can be very subtle and encode more than just the high-level features we intended to represent. Encountered example: steering an LLM away from information retrieval caused it to *confabulate* the bios of obscure people (desired outcome), but additionally it made all of the people into influencers (unexpectedly precise confabulation).
@@ -19,6 +25,6 @@ __Prompt 2__
 |---|---|---|
 | The sky unfolds in hues so wide,<br>A canvas where the soft clouds glide.<br>At dawn it glows with golden light,<br>At dusk it fades to velvet night. |  | The sky unfolds in hues so bright,<br>A canvas vast of blue and light.<br>Clouds drift softly, free and high,<br>Dreams take flight where echoes lie. |
 
-## Goal 
+## Goal
 
 I study whether the meaning of a prompt can be compressed into a small set of internal layer-wise representations, allowing LLMs to recover complex instructions from far fewer tokens while revealing more about how information is encoded inside the model.
